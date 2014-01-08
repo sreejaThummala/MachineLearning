@@ -29,8 +29,6 @@ public class KNN {
 	 */
 	public KNNResult classify(Item[] trainingData, Item[] testData, int k) {
 
-		/* ... YOUR CODE GOES HERE ... */
-    // for each test item in testData
 		KNNResult result = new KNNResult();
 		double[][] distanceMatrix = createDistanceMatrix(testData,trainingData);
 		result.nearestNeighbors = deriveNearestNeighbors(trainingData,testData.length,distanceMatrix,k);
