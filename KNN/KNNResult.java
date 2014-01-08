@@ -1,5 +1,4 @@
 
-
 public class KNNResult {
 	
 	// The accuracy of your kNN algorithm in accordance with k
